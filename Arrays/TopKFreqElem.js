@@ -7,10 +7,11 @@ const findFreq = (arr, k) => {
       map.set(arr[i], map.get(arr[i]) + 1);
     }
   }
-  console.log(map);
+  console.log("map", map);
+  console.log("map.entries", map.entries());
 
   let sorted = new Map([...map.entries()].sort((a, b) => b[1] - a[1]));
-  console.log(sorted);
+  console.log("sortedMap", sorted);
   let count = 0,
     res = [];
   for (let i of sorted.keys()) {
