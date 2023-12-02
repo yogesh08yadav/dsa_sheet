@@ -9,4 +9,4 @@ const prefix = (arr) => {
   }
   return arr[0];
 };
-prefix(["flower", "flow", "flight"]);
+prefix(["flower", "fly", "flow", "flight"]);
