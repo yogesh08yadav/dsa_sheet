@@ -1,4 +1,5 @@
 var maxArea = function (height) {
+  // commented lines were here
   let l = 0,
     r = height.length - 1,
     max = 0;
