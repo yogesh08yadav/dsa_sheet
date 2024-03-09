@@ -1,5 +1,4 @@
 var maxArea = function (height) {
-  // const maxWater = (arr) =>{
   let l = 0,
     r = height.length - 1,
     max = 0;
